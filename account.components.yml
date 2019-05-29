@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Account:
+      type: object
+      properties:
+        xboAccountId:
+          type: string
+        billingAccountNumber:
+          type: string
