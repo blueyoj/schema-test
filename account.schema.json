@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-05/schema#",
+  "$id": "https://github.com/blueyoj/schema-test/new/master/account.schema.json",
+  "title": "Account",
+  "description": "XBO account",
+  "type": "object",
+  "properties": {
+    "xboAccountId": {
+      "description": "XBO account ID",
+      "type": "string",
+      "readOnly": true,
+      "examples": [
+        "123456789"
+      ]
+    },
+    "billingAccountNumber": {
+      "description": "Billing account number",
+      "type": "string",
+      "readOnly": true,
+      "examples": [
+        "987654321"
+      ]
+    }
+  },
+  "required": [
+    "xboAccountId",
+    "billingAccountNumber"
+  ]
+}
